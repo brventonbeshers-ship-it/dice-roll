@@ -1,0 +1,12 @@
+
+# IDE
+.vscode/
+.idea/
+
+# Debug
+npm-debug.log*
+
+# Env
+.env
+.env.local
+
