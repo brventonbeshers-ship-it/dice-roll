@@ -6,3 +6,5 @@ export function Skeleton({ className = "" }: { className?: string }) {
     />
   );
 }
+
+// skeleton: 1775828313873
