@@ -14,3 +14,5 @@ export interface GameStats {
   lastResult: number;
   leaderboard: LeaderEntry[];
 }
+
+// jsdoc: 1775828352205
