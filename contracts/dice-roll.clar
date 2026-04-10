@@ -29,7 +29,7 @@
       (caller tx-sender)
       (current (default-to u0 (map-get? user-rolls caller)))
       (new-count (+ current u1))
-      (result (+ (mod (+ block-height (len (unwrap-panic (to-consensus-buff? caller)))) u6) u1))
+      (result (+ (mod (+ block-height new-count) u6) u1))
     )
     ;; Update user rolls
     (map-set user-rolls caller new-count)
