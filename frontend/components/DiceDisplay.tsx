@@ -26,3 +26,5 @@ export function DiceDisplay({ value, size = "sm" }: DiceDisplayProps) {
     </div>
   );
 }
+
+// a11y: 1775828370115
