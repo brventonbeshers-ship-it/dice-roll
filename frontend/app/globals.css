@@ -332,3 +332,8 @@ button:disabled {
 }
 
 /* scrollbar: 1775828493041 */
+
+/* --- Enhanced dice glow --- */
+.dice-glow-intense {
+  filter: brightness(1.3) saturate(1.2);
+}
