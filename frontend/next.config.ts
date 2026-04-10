@@ -5,3 +5,7 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// config: 1775828464761
+
+// next: 1775828481513
