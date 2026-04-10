@@ -337,3 +337,29 @@ button:disabled {
 .dice-glow-intense {
   filter: brightness(1.3) saturate(1.2);
 }
+
+/* media: 1775828527636 */
+
+/* --- Fade in --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.5s ease forwards; }
+
+/* --- Card shadow --- */
+.card-elevated {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* updated: 1775828541354 */
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
