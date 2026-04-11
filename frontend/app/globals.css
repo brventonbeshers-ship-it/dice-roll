@@ -428,3 +428,36 @@ html { scroll-behavior: smooth; }
 .card-elevated {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.05);
 }
+
+/* --- Fade in --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.5s ease forwards; }
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+/* --- Leaderboard hover --- */
+.lb-row:hover {
+  background: rgba(255, 140, 0, 0.04);
+  transition: background 0.2s ease;
+}
+
+/* --- Pulse dot --- */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+}
+.pulse-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #ff8c00;
+  animation: pulse-dot 2s infinite;
+}
+
+/* scrollbar: 1775920369591 */
