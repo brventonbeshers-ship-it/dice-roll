@@ -414,3 +414,12 @@ html { scroll-behavior: smooth; }
 .tooltip:hover::after { opacity: 1; }
 
 /* media: 1775920251347 */
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}
