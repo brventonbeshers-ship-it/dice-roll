@@ -512,3 +512,9 @@ html { scroll-behavior: smooth; }
 .dice-bounce {
   animation: dice-bounce 0.6s ease-in-out;
 }
+
+/* --- Counter numerals --- */
+.counter-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
