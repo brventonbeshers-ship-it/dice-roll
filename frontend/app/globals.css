@@ -567,3 +567,12 @@ html { scroll-behavior: smooth; }
   background: rgba(255, 140, 0, 0.04);
   transition: background 0.2s ease;
 }
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}

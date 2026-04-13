@@ -44,3 +44,5 @@ export function DiceDisplay({ value, size = "sm" }: DiceDisplayProps) {
 // a11y: 1775966643259
 
 // a11y: 1776046407046
+
+// dice: 1776046627821
