@@ -9,7 +9,6 @@ jobs:
   install-and-verify:
     name: Verify SDK (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -19,41 +18,33 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-        continue-on-error: true
 
       - name: Create temporary workspace
         run: mkdir -p ${{ runner.temp }}/sdk-smoke
-        continue-on-error: true
 
       - name: Initialize package
         working-directory: ${{ runner.temp }}/sdk-smoke
         run: npm init -y
-        continue-on-error: true
 
       - name: Install dice-roll-sdk
         working-directory: ${{ runner.temp }}/sdk-smoke
         run: npm install dice-roll-sdk
-        continue-on-error: true
 
       - name: Verify package is importable
         working-directory: ${{ runner.temp }}/sdk-smoke
         run: node -e "const sdk = require('dice-roll-sdk'); console.log('dice-roll-sdk loaded successfully');"
-        continue-on-error: true
 
       - name: Check package contents
         working-directory: ${{ runner.temp }}/sdk-smoke
         run: ls -la node_modules/dice-roll-sdk/
-        continue-on-error: true
 
       - name: Print package version
         working-directory: ${{ runner.temp }}/sdk-smoke
         run: node -e "const pkg = require('dice-roll-sdk/package.json'); console.log('Version:', pkg.version);"
-        continue-on-error: true
 
   stress-test:
     name: Stress run ${{ matrix.run }}
     runs-on: ubuntu-latest
-    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -63,14 +54,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-        continue-on-error: true
 
       - name: Fresh install dice-roll-sdk
         run: |
           cd $(mktemp -d)
           npm init -y
           npm install dice-roll-sdk
-        continue-on-error: true
 
       - name: Validate SDK loads
         run: |
@@ -78,4 +67,3 @@ jobs:
           npm init -y
           npm install dice-roll-sdk
           node -e "require('dice-roll-sdk'); console.log('Run ${{ matrix.run }}: OK');"
-        continue-on-error: true
