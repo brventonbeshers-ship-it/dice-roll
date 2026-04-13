@@ -748,3 +748,8 @@ html { scroll-behavior: smooth; }
 /* scrollbar: 1776083942684 */
 
 /* updated: 1776083950042 */
+
+/* --- Enhanced dice glow --- */
+.dice-glow-intense {
+  filter: brightness(1.3) saturate(1.2);
+}
