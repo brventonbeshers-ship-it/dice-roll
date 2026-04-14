@@ -1010,3 +1010,12 @@ html { scroll-behavior: smooth; }
 /* media: 1776170733579 */
 
 /* updated: 1776170741377 */
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}
