@@ -1250,3 +1250,10 @@ button:disabled {
 /* media: 1776247684090 */
 
 /* scrollbar: 1776247733440 */
+
+/* --- Focus ring --- */
+*:focus-visible {
+  outline: 2px solid rgba(255, 140, 0, 0.6);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
