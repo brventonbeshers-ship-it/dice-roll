@@ -1398,3 +1398,8 @@ html { scroll-behavior: smooth; }
 }
 
 /* updated: 1776256628393 */
+
+/* --- Enhanced dice glow --- */
+.dice-glow-intense {
+  filter: brightness(1.3) saturate(1.2);
+}
