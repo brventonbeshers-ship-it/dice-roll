@@ -1171,3 +1171,12 @@ html { scroll-behavior: smooth; }
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Glass border glow --- */
+.glass-card-glow {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
+}
