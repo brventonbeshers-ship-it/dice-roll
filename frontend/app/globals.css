@@ -1219,3 +1219,6 @@ html { scroll-behavior: smooth; }
 .neon-border {
   animation: neon-pulse 3s infinite;
 }
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
