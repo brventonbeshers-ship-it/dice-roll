@@ -1257,3 +1257,12 @@ button:disabled {
   outline-offset: 2px;
   border-radius: 6px;
 }
+
+/* updated: 1776247865598 */
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
