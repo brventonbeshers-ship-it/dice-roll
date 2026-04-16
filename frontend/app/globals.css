@@ -1685,3 +1685,9 @@ html { scroll-behavior: smooth; }
 }
 
 /* updated: 1776349827428 */
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
