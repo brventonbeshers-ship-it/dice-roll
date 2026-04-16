@@ -1416,3 +1416,19 @@ html { scroll-behavior: smooth; }
 /* scrollbar: 1776269680837 */
 
 /* media: 1776269722477 */
+
+/* --- Glass border glow --- */
+.glass-card-glow {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
+}
+
+/* media: 1776315504200 */
+
+/* --- Card shadow --- */
+.card-elevated {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.05);
+}
