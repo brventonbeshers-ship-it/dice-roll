@@ -1432,3 +1432,38 @@ html { scroll-behavior: smooth; }
 .card-elevated {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.05);
 }
+
+/* --- Enhanced dice glow --- */
+.dice-glow-intense {
+  filter: brightness(1.3) saturate(1.2);
+}
+
+/* --- Pulse dot --- */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.85); }
+}
+.pulse-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #ff8c00;
+  animation: pulse-dot 2s infinite;
+}
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* scrollbar: 1776315582406 */
+
+/* --- Dice bounce --- */
+@keyframes dice-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.dice-bounce {
+  animation: dice-bounce 0.6s ease-in-out;
+}
