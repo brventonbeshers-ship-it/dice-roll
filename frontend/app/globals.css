@@ -1585,3 +1585,12 @@ html { scroll-behavior: smooth; }
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}
