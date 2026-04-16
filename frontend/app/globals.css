@@ -1556,3 +1556,13 @@ html { scroll-behavior: smooth; }
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
 }
+
+/* media: 1776331185652 */
+
+/* scrollbar: 1776331195038 */
+
+/* --- Counter numerals --- */
+.counter-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
