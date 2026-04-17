@@ -1716,3 +1716,7 @@ button:disabled {
 /* scrollbar: 1776372692893 */
 
 /* updated: 1776372744900 */
+
+/* --- Transition util --- */
+.transition-fast { transition: all 0.15s ease; }
+.transition-med { transition: all 0.3s ease; }
