@@ -1786,3 +1786,9 @@ button:disabled {
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
