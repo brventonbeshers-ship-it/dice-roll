@@ -2290,3 +2290,10 @@ button:disabled {
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
 }
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
