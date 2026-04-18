@@ -2191,3 +2191,9 @@ html { scroll-behavior: smooth; }
 .transition-med { transition: all 0.3s ease; }
 
 /* updated: 1776518583959 */
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
