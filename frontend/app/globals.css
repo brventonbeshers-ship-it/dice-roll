@@ -2153,3 +2153,8 @@ button:disabled {
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Rank badges --- */
+.rank-gold { color: #ffd700; text-shadow: 0 0 8px rgba(255, 215, 0, 0.3); }
+.rank-silver { color: #c0c0c0; text-shadow: 0 0 8px rgba(192, 192, 192, 0.3); }
+.rank-bronze { color: #cd7f32; text-shadow: 0 0 8px rgba(205, 127, 50, 0.3); }
