@@ -2053,3 +2053,12 @@ button:disabled {
 }
 
 /* scrollbar: 1776493967555 */
+
+/* --- Dice bounce --- */
+@keyframes dice-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.dice-bounce {
+  animation: dice-bounce 0.6s ease-in-out;
+}
