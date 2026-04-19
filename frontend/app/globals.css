@@ -2521,3 +2521,6 @@ button:disabled {
 }
 
 /* media: 1776619608205 */
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
