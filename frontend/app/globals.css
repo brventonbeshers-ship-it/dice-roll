@@ -2791,3 +2791,12 @@ html { scroll-behavior: smooth; }
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
 }
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}
