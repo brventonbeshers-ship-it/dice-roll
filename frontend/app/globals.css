@@ -2741,3 +2741,8 @@ html { scroll-behavior: smooth; }
 }
 
 /* media: 1776679783302 */
+
+/* --- Mobile tap area --- */
+@media (max-width: 640px) {
+  .tap-target-mobile { min-width: 48px; min-height: 48px; }
+}
