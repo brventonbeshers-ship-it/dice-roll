@@ -2725,3 +2725,9 @@ html { scroll-behavior: smooth; }
 .dice-bounce {
   animation: dice-bounce 0.6s ease-in-out;
 }
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
