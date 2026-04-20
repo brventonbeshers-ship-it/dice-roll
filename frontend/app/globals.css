@@ -2600,3 +2600,12 @@ html { scroll-behavior: smooth; }
 /* media: 1776644826553 */
 
 /* updated: 1776644836045 */
+
+/* --- Glass border glow --- */
+.glass-card-glow {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
+}
