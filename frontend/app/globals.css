@@ -2932,3 +2932,27 @@ html { scroll-behavior: smooth; }
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* updated: 1776781297909 */
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+/* --- Glass border glow --- */
+.glass-card-glow {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
+}
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
