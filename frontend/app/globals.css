@@ -3066,3 +3066,7 @@ button:disabled {
 @media (max-width: 640px) {
   .tap-target-mobile { min-width: 48px; min-height: 48px; }
 }
+
+/* --- Transition util --- */
+.transition-fast { transition: all 0.15s ease; }
+.transition-med { transition: all 0.3s ease; }
