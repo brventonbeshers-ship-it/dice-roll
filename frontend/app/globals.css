@@ -3447,3 +3447,9 @@ button:disabled {
 .tooltip:hover::after { opacity: 1; }
 
 /* media: 1776876718343 */
+
+/* --- Counter numerals --- */
+.counter-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
