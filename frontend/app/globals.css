@@ -3453,3 +3453,6 @@ button:disabled {
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
 }
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
