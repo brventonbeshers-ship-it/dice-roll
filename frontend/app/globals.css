@@ -3103,3 +3103,10 @@ button:disabled {
 }
 
 /* scrollbar: 1776817750287 */
+
+/* --- Focus ring --- */
+*:focus-visible {
+  outline: 2px solid rgba(255, 140, 0, 0.6);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
