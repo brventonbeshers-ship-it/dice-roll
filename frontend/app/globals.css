@@ -3110,3 +3110,6 @@ button:disabled {
   outline-offset: 2px;
   border-radius: 6px;
 }
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
