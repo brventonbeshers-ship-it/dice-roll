@@ -3209,3 +3209,6 @@ button:disabled {
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
 }
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
