@@ -3773,3 +3773,12 @@ button:disabled {
   to { opacity: 1; transform: translateY(0); }
 }
 .fade-in { animation: fadeIn 0.5s ease forwards; }
+
+/* --- Neon border --- */
+@keyframes neon-pulse {
+  0%, 100% { border-color: rgba(255, 140, 0, 0.3); }
+  50% { border-color: rgba(255, 140, 0, 0.6); }
+}
+.neon-border {
+  animation: neon-pulse 3s infinite;
+}
