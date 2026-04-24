@@ -4075,3 +4075,8 @@ html { scroll-behavior: smooth; }
 /* scrollbar: 1777066720337 */
 
 /* updated: 1777066840186 */
+
+/* --- Mobile tap area --- */
+@media (max-width: 640px) {
+  .tap-target-mobile { min-width: 48px; min-height: 48px; }
+}
