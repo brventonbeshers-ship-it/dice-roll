@@ -3883,3 +3883,23 @@ html { scroll-behavior: smooth; }
 .neon-border {
   animation: neon-pulse 3s infinite;
 }
+
+/* --- Mobile tap area --- */
+@media (max-width: 640px) {
+  .tap-target-mobile { min-width: 48px; min-height: 48px; }
+}
+
+/* --- Glass border glow --- */
+.glass-card-glow {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255, 140, 0, 0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.03);
+}
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
