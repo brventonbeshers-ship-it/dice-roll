@@ -4111,3 +4111,9 @@ html { scroll-behavior: smooth; }
 }
 
 /* media: 1777103568992 */
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
