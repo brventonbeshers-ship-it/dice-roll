@@ -4147,3 +4147,10 @@ button:disabled {
 
 /* --- Smooth scroll --- */
 html { scroll-behavior: smooth; }
+
+/* --- Focus ring --- */
+*:focus-visible {
+  outline: 2px solid rgba(255, 140, 0, 0.6);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
