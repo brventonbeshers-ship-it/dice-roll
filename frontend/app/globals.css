@@ -4334,3 +4334,9 @@ html { scroll-behavior: smooth; }
 }
 
 /* scrollbar: 1777184395333 */
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
