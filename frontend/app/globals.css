@@ -4317,3 +4317,9 @@ html { scroll-behavior: smooth; }
 html { scroll-behavior: smooth; }
 
 /* updated: 1777184307584 */
+
+/* --- Counter numerals --- */
+.counter-num {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
