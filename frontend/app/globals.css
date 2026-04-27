@@ -4578,3 +4578,12 @@ button:disabled {
 .neon-border {
   animation: neon-pulse 3s infinite;
 }
+
+/* --- Dice bounce --- */
+@keyframes dice-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.dice-bounce {
+  animation: dice-bounce 0.6s ease-in-out;
+}
