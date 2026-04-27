@@ -4587,3 +4587,12 @@ button:disabled {
 .dice-bounce {
   animation: dice-bounce 0.6s ease-in-out;
 }
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+/* --- Smooth scroll --- */
+html { scroll-behavior: smooth; }
