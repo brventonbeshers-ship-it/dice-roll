@@ -4621,3 +4621,7 @@ html { scroll-behavior: smooth; }
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Transition util --- */
+.transition-fast { transition: all 0.15s ease; }
+.transition-med { transition: all 0.3s ease; }
