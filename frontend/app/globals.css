@@ -4647,3 +4647,5 @@ html { scroll-behavior: smooth; }
   transition: opacity 0.2s;
 }
 .tooltip:hover::after { opacity: 1; }
+
+/* media: 1777356650862 */
