@@ -4672,3 +4672,10 @@ html { scroll-behavior: smooth; }
 /* updated: 1777448342314 */
 
 /* scrollbar: 1777448347824 */
+
+/* --- Gradient text utility --- */
+.text-gradient-accent {
+  background: linear-gradient(135deg, #ff8c00, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
