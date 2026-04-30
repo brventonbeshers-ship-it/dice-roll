@@ -4723,3 +4723,9 @@ html { scroll-behavior: smooth; }
 
 /* --- Smooth scroll --- */
 html { scroll-behavior: smooth; }
+
+/* --- Disabled states --- */
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+}
