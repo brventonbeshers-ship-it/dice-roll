@@ -4709,3 +4709,9 @@ html { scroll-behavior: smooth; }
   background: #ff8c00;
   animation: pulse-dot 2s infinite;
 }
+
+/* --- Leaderboard hover --- */
+.lb-row:hover {
+  background: rgba(255, 140, 0, 0.04);
+  transition: background 0.2s ease;
+}
