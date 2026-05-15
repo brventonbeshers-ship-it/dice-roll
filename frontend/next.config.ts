@@ -235,3 +235,5 @@ export default nextConfig;
 // config: 1777880567113
 
 // next: 1777880722861
+
+// config: 1778860117774
